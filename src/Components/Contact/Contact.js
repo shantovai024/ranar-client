@@ -3,6 +3,9 @@ import './Contact.css'
 import contact from '../images/contact.jpeg'
 
 const Contact = () => {
+    let handleContactForm = (event) => {
+        event.preventDefault()
+    }
     return (
         <div>
             <div className="row">
@@ -16,7 +19,7 @@ const Contact = () => {
                 </div>
                 <div className="col-xl-6">
                     <div className="contact-form">
-                        <form action="">
+                        <form onSubmit={handleContactForm}>
                             <input type="text" placeholder='Your Name *' />
                             <input type="email" placeholder='Your Email *' />
                             <textarea type="text" placeholder='Message *' />
