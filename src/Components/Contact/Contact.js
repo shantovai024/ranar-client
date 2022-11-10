@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <div className="row">
                 <div className="col-xl-12">
-                    <h2 className='contact-title mt-3 mb-4'>Contact Us</h2>
+                    <h2 className='contact-title mt-50 mb-60'>Contact Us</h2>
                 </div>
                 <div className="col-xl-6">
                     <div className="contact-img">
@@ -17,9 +17,9 @@ const Contact = () => {
                 <div className="col-xl-6">
                     <div className="contact-form">
                         <form action="">
-                            <input type="text" placeholder='Your Name' />
-                            <input type="email" placeholder='Your Email' />
-                            <input type="text" placeholder='Your Name' />
+                            <input type="text" placeholder='Your Name *' />
+                            <input type="email" placeholder='Your Email *' />
+                            <textarea type="text" placeholder='Message *' />
                             <input type="submit" value="Send Message" />
                         </form>
                     </div>

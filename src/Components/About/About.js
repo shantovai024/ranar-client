@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div className="row">
                 <div className="col-xl-12">
-                    <h2 className='text-center about-title mt-3 mb-4'>About</h2>
+                    <h2 className='text-center about-title mt-50 mb-60'>About</h2>
                 </div>
                 <div className="col-xl-6">
                     <div className="about-img">
