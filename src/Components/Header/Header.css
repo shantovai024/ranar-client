@@ -1,0 +1,13 @@
+.mb-20 {
+    margin-bottom: 20px;
+}
+.menu-area a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.menu-area a:hover {
+color: #0097C4;
+}
