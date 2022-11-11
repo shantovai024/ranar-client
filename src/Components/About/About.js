@@ -5,9 +5,9 @@ import aboutImg from '../images/about.jpg'
 const About = () => {
     return (
         <div>
-            <div className="row">
+            <div className="row mb-40">
                 <div className="col-xl-12">
-                    <h2 className='text-center about-title mt-50 mb-60'>About</h2>
+                    <h2 className='text-center about-title mb-60'>About</h2>
                 </div>
                 <div className="col-xl-6">
                     <div className="about-img">

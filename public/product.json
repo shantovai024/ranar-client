@@ -1,0 +1,110 @@
+[
+  {
+    "_id": 1,
+    "name": "Walton 32' WebOS TV",
+    "supplierName": "Walton",
+    "description": "Walton WebOS TV has Quad core A55 Cpu with 8GB Rom and 1.5GB DDR Ram. It also has built in Screen Mirroring, Wifi Hotspot, Amazon Prime, Netflix, Youtube Facilities. The Display Size is 1366*768 with viewing angel 178/178 degree. It also comes with built in 2*8 watt Speaker.",
+    "price": 30000,
+    "quantity": 20,
+    "img": "https://i.ibb.co/nzPGdSR/walton-2.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Walton 43' Smart LED TV TV",
+    "supplierName": "Walton",
+    "description": "Walton 43' Smart LED TV TV has Quad core A53 Cpu with 4GB Rom and 1GB DDR Ram. It also has built in Facebook, Twitter, Yahoo, Kids, Screencast, Seraphic Web Browser Facilities. The Display Size is 1920*1080 with viewing angel 178/178 degree. It also comes with built in 2*8 watt Speaker with refresh rate 60hz.",
+    "price": 43000,
+    "quantity": 10,
+    "img": "https://i.ibb.co/4smTzXS/walton-1.jpg"
+  },
+  {
+    "_id": 12,
+    "name": "Corsair Elgato Facecam",
+    "supplierName": "Corsair",
+    "description": "The Corsair Elgato Facecam Premium 1080p Webcam has a high-performance lens and an advanced image sensor. Uncompressed video produced by high-speed circuitry is amazing. Furthermore, inbuilt memory allows you to retain image settings across many devices..",
+    "price": 2200,
+    "quantity": 10,
+    "img": "https://i.ibb.co/c26pxKv/corsair.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "ASUS VZ24EHE Eye Care Monitor",
+    "supplierName": "Asus",
+    "description": "ASUS VZ24EHE Has An Ultra-Slim Profile. Almost Seamless Multi-Display Setups That Give You An Even Greater Degree Of Immersion. An Advanced High-Performance IPS Panel Gives You A Wide 178° Viewing Angle. In Addition, ASUS Eye Care Technology Ensures A Comfortable Viewing Experience.",
+    "price": 21300,
+    "quantity": 30,
+    "img": "https://i.ibb.co/3R48LTZ/accer.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "BenQ GW2280 22 Inch LED Monitor",
+    "supplierName": "BenQ",
+    "description": "BenQ Exclusive Eye-Care Technology With Low Blue Light Technology And Flicker-Free Performance For Extended Viewing Comfort, Industry-Leading Brightness Intelligence Technology Delivers Exquisite Details In Any Ambient Lighting Environment. Built With The Dream Combination Of LED With VA Panel.",
+    "price": 14700,
+    "quantity": 15,
+    "img": "https://i.ibb.co/SKDMBmY/benq.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "MSI 27INCH 16:9 CURVED Monitor",
+    "supplierName": "MSI",
+    "description": "MSI Modern MD271CPW 27 16:9 Curved 75 Hz VA Monitor Is Built To Optimize Comfort While You Stay Productive And Entertained. This 1920 X 1080 Resolution Full HD Monitor Features A 1500R Curved Design, Which Works With The 178° Viewing Angles.",
+    "price": 28000,
+    "quantity": 5,
+    "img": "https://i.ibb.co/z5WTH6N/msi.jpg"
+  },
+  {
+    "_id": 7,
+    "name": "HP Pavilion Gaming",
+    "supplierName": "HP",
+    "description": "HP Pavilion Gaming 15-ec2908AX Laptop comes with a AMD Ryzen 7 5800H Processor(16M Cache, 3.2 GHz up to 4.4 GHz) and 16 GB DDR4-3200 MHz RAM (2 x 8 GB). It has been integrated with NVIDIA GeForce RTX 3050 4 GB GDDR6 dedicated graphics and has a 15.6) diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time.",
+    "price": 142000,
+    "quantity": 6,
+    "img": "https://i.ibb.co/XJ0BzZS/hp.jpg"
+  },
+  {
+    "_id": 8,
+    "name": "Acer Aspire 3",
+    "supplierName": "Acer",
+    "description": "Acer Aspire 3 A315-58 Laptop powered by Intel Core i3-1115G4 Processor (6M Cache, 3.00 GHz up to 4.10 GHz) with Intel UHD Graphics. Its 6M Cache, 3.00 GHz up to 4.10 GHz. Acer Aspire 3 A315-58 has a 15.6 FHD (1920x1080), ComfyView, and LED display.",
+    "price": 42000,
+    "quantity": 2,
+    "img": "https://i.ibb.co/3R48LTZ/accer.jpg"
+  },
+  {
+    "_id": 9,
+    "name": "Logitech G PRO",
+    "supplierName": "Logitech",
+    "description": "Logitech G PRO Gaming Headset is built with the highest quality materials and advanced technologies to provide audio performance that is second to none. You can hear everything with greater precision, from quiet footsteps to gunshot audio signatures to voice comms.",
+    "price": 10500,
+    "quantity": 7,
+    "img": "https://i.ibb.co/TYXMMJZ/logitech.jpg"
+  },
+  {
+    "_id": 10,
+    "name": "Power Guard 650VA",
+    "supplierName": "Power Guard",
+    "description": "The Power Guard 650VA PS Offline UPS features Automatic voltage regulation(AVR), High/ Low Voltage Protection, Overload/ Short Protection Cool. This Power Guard UPS featured an input voltage range of 145-280VAC and a frequency of 50/60Hz+/-5%.",
+    "price": 3500,
+    "quantity": 7,
+    "img": "https://i.ibb.co/wYkMKjb/power-guard.jpg"
+  },
+  {
+    "_id": 11,
+    "name": "Sony Alpha A6400 Mirrorless",
+    "supplierName": "Sony",
+    "description": "Sony Alpha A6400 Mirrorless Digital Camera with 16-50mm Lens is comes with 24.2MP APS-C Exmor CMOS Sensor, BIONZ X Image Processor, Real-Time Eye AF & Real-Time Tracking XGA Tru-Finder 2.36m-Dot OLED EVF. This camera is stable, fast, versatile.",
+    "price": 11200,
+    "quantity": 15,
+    "img": "https://i.ibb.co/RDWvMmT/sony.jpg"
+  },
+  {
+    "_id": 12,
+    "name": "Galaxy Z Flip4",
+    "supplierName": "Samsung",
+    "description": "Samsung Galaxy Z Flip4 has 3.18ghz octa core processor. 2640*1080 fhd display. Refresh rate of 120 hz. 12.0 mp rear and 10.0 mp back camera. it also has 960 fps of slow motion camera. And video recordings at 3840*2160 at 60 fps. This phone comes with 128 gb of rom and 8gb of ram",
+    "price": 154000,
+    "quantity": 10,
+    "img": "https://i.ibb.co/MkQG3gH/samsung.jpg"
+  }
+]
