@@ -6,7 +6,7 @@ import './Products.css'
 const Products = () => {
     let [products, setProducts] = UseProducts()
     return (
-        <>
+        <div className='mb-60'>
             <h1 className='text-center mb-60'>Products</h1>
             <div className='row'>
                 {
@@ -16,7 +16,7 @@ const Products = () => {
                     </Product>)
                 }
             </div>
-        </>
+        </div>
     );
 };
 
