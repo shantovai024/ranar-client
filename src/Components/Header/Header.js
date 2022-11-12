@@ -15,6 +15,8 @@ const Header = () => {
                 <nav className='menu-area'>
                     <Link to='/about'>About</Link>
                     <Link to='/blog'>Blog</Link>
+                    <Link to='/login'>Login</Link>
+                    <Link to='/register'>Register</Link>
                 </nav>
             </div>
         </div>

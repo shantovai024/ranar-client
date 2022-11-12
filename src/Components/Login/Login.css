@@ -1,0 +1,24 @@
+.login-form input, .login-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.login-form input[type=button] {
+    background: #229F44;
+    color: #fff;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.login-form input[type=button]:hover {
+    background: #134b22;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #229F44;
+    font-weight: bold;
+}
