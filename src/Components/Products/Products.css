@@ -17,7 +17,7 @@
 .update {
     background: #01A54E;
     color: #fff;
-    padding: 10px;
+    padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
     transition: .3s;
@@ -29,10 +29,10 @@
     color: #fff;
 }
 
-.delete {
+.delivered {
     background: red;
     color: #fff;
-    padding: 10px;
+    padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
     transition: .3s;
@@ -40,7 +40,7 @@
 
 }
 
-.delete:hover{
+.delivered:hover{
     background: rgb(149, 8, 8);
     color: #fff;
 }

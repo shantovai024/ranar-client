@@ -14,8 +14,8 @@ const Product = ({ product }) => {
                     <h4>Price: {price}</h4>
                     <h6>Quantity: {quantity}</h6>
                     <div className="update-delete-btn mt-3">
-                        <Link className='update me-4'>Update Stock</Link>
-                        <Link className='delete'>Delete</Link>
+                        <Link className='update me-4'>Update Item</Link>
+                        <Link className='delivered'>Delivered</Link>
                     </div>
                 </div>
 
