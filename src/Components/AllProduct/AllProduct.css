@@ -1,0 +1,48 @@
+.card{
+    transition: .3s;
+    z-index: 11;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    border-color: #01A54E;
+}
+
+.product-img img {
+    max-width: 100%;
+}
+
+.update {
+    background: #01A54E;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.update:hover{
+    background: #05552bfb;
+    color: #fff;
+}
+
+.delivered {
+    background: red;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+}
+
+.delivered:hover{
+    background: rgb(149, 8, 8);
+    color: #fff;
+}

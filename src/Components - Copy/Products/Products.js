@@ -5,7 +5,7 @@ import Product from '../Product/Product';
 import './Products.css'
 
 const Products = () => {
-    let [products, setProducts] = UseProducts([])
+    let [products, setProducts] = UseProducts()
     return (
         <div className='mb-60'>
             <h1 className='text-center mb-60'>Products</h1>
@@ -25,9 +25,11 @@ const Products = () => {
 
 
                 <div className='text-center mt-4'>
-                    <Link to='/allproduct'><button className='manage-btn text-center'>Manage Inventory</button></Link>
+                    <Link to='/manageinventory'><button className='manage-btn text-center'>Manage Inventory</button></Link>
                 </div>
+                
             </div>
+
         </div>
     );
 };

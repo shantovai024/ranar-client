@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Inventory from '../Inventory/Inventory';
 
 
 const Product = ({ product }) => {
-    let { name, supplierName, description, price, quantity, img } = product;
+    let { _id, name, supplierName, description, price, quantity, img } = product;
 
     let navigate = useNavigate()
     let navigateToUpdate = id => {
@@ -23,12 +22,11 @@ const Product = ({ product }) => {
                     <h6>Quantity: {quantity}</h6>
                     <div className="update-delete-btn mt-3">
                         <button onClick={()=> navigateToUpdate(product._id)} className='update me-4'>Update Item</button>
-                        <button className='delivered'>Delivered</button>
+                        <Link className='delivered'>Delivered</Link>
                     </div>
                 </div>
                     
             </div>
-            
         </div>
     );
 };
