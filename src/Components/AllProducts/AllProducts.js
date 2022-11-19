@@ -2,10 +2,10 @@ import React from 'react';
 import UseProducts from '../hooks/UseProducts';
 import Inventory from '../Inventory/Inventory';
 import Product from '../Product/Product';
-import './AllProduct.css'
+import './AllProducts.css'
 
-const AllProduct = () => {
-    let [products, setProducts] = UseProducts()  
+const AllProducts = () => {
+    let [products, setProducts] = UseProducts()
     return (
         <div className='mb-60'>
             <h1 className='text-center mb-60'>All Product</h1>
@@ -14,10 +14,10 @@ const AllProduct = () => {
                     products.map(product => <Product
                         key={product._id}
                         product={product}>
-                            <Inventory
+                        <Inventory
                             product={product}
                             Inventory
-                            ></Inventory>
+                        ></Inventory>
                     </Product>)
                 }
             </div>
@@ -25,4 +25,4 @@ const AllProduct = () => {
     );
 };
 
-export default AllProduct;
+export default AllProducts;

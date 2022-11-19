@@ -5,7 +5,7 @@ import auth from '../../firebase.init';
 import { useLocation, useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
 
-let SocialLogin = () => {
+const SocialLogin = () => {
 
     let [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
 

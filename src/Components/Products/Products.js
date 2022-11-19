@@ -25,7 +25,7 @@ const Products = () => {
 
 
                 <div className='text-center mt-4'>
-                    <Link to='/allproduct'><button className='manage-btn text-center'>Manage Inventory</button></Link>
+                    <Link to='/allproducts'><button className='manage-btn text-center'>Manage Inventory</button></Link>
                 </div>
             </div>
         </div>

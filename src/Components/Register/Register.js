@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
-let Register = () => {
+const Register = () => {
 
     let location = useLocation()
     let navigate = useNavigate();

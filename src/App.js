@@ -11,9 +11,8 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
 import Register from './Components/Register/Register';
-import AllProducts from './Components/AllProduct/AllProduct';
+import AllProducts from './Components/AllProducts/AllProducts';
 import Inventory from './Components/Inventory/Inventory';
-import SingleViewProduct from './Components/SingleViewProduct/SingleViewProduct';
 
 function App() {
   return (
@@ -26,9 +25,9 @@ function App() {
           <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/register' element={<Register></Register>}></Route>
-          <Route path='/allproduct' element={<AllProducts></AllProducts>}></Route>
-          <Route path='inventory/:id' element={<SingleViewProduct></SingleViewProduct>}></Route>
-          
+          <Route path='/allproducts' element={<AllProducts></AllProducts>}></Route>
+          <Route path='inventory/:id' element={<Inventory></Inventory>}></Route>
+
           <Route path='*' element={<NotFound></NotFound>}></Route>
         </Routes>
         <Footer></Footer>

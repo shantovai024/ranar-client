@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import Inventory from '../Inventory/Inventory';
+import { useNavigate } from 'react-router-dom';
 
 
 const Product = ({ product }) => {
@@ -22,13 +21,11 @@ const Product = ({ product }) => {
                     <h4>Price: {price}</h4>
                     <h6>Quantity: {quantity}</h6>
                     <div className="update-delete-btn mt-3">
-                        <button onClick={()=> navigateToUpdate(product._id)} className='update me-4'>Update Item</button>
+                        <button onClick={() => navigateToUpdate(product._id)} className='update me-4'>Update Item</button>
                         <button className='delivered'>Delivered</button>
                     </div>
                 </div>
-                    
             </div>
-            
         </div>
     );
 };
