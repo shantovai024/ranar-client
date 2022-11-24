@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 import UseProducts from '../hooks/UseProducts';
 import Inventory from '../Inventory/Inventory';
 import Product from '../Product/Product';
@@ -6,6 +8,28 @@ import './AllProducts.css'
 
 const AllProducts = () => {
     let [products, setProducts] = UseProducts()
+    let navigate = useNavigate()
+    let addAProduct = () => {
+        navigate('/addproducts')
+    }
+
+    const handleDeleteProduct = (id) => {
+        const proceed = window.confirm("Are you sure to delete this product?");
+        if (proceed) {
+            const url = `http://localhost:5000/allproducts/${id}`;
+            fetch(url, {
+                method: "DELETE",
+            })
+                .then((res) => res.json())
+                .then((result) => {
+                    console.log(result);
+                    const remaining = products.filter((product) => product._id !== id);
+                    setProducts(remaining);
+                    toast("Deleted Successfully");
+                });
+        }
+    };
+
     return (
         <div className='mb-60'>
             <h1 className='text-center mb-60'>All Product</h1>
@@ -13,13 +37,17 @@ const AllProducts = () => {
                 {
                     products.map(product => <Product
                         key={product._id}
-                        product={product}>
-                        <Inventory
-                            product={product}
-                            Inventory
-                        ></Inventory>
+                        product={product}
+                        handleDeleteProduct={handleDeleteProduct}
+                    >
                     </Product>)
                 }
+            </div>
+            <div className="row">
+                <div className="col-xl-12 text-center mt-4">
+                    <button className='manage-btn' onClick={addAProduct}>Add a Product</button>
+
+                </div>
             </div>
         </div>
     );

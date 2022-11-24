@@ -5,3 +5,11 @@
 .blog p {
     text-align: justify;
 }
+
+@media (max-width: 576px) {
+    .container {
+        width: 576px;
+        padding: 30px;
+    }
+
+}

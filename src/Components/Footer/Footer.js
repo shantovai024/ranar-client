@@ -11,7 +11,7 @@ const Footer = () => {
         <>
             <div className="footer-area pt-50 pb-30 mt-50 bg-footer">
                 <div className='row'>
-                    <div className="col-xl-6">
+                    <div className="col-md-6">
                         <div className="footer-left">
                             <h3>Get in Touch</h3>
                             <p>Ranar inc.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <p><FontAwesomeIcon icon={faEnvelope} /> mail@companyname.com</p>
                         </div>
                     </div>
-                    <div className="col-xl-6">
+                    <div className="col-md-6">
                         <div className="footer-right">
                             <h3>Newsletter Sign Up</h3>
                             <p>Sign up to our newsletter and get exclusive offers and news you wont find anywhere else straight to your inbox!</p>

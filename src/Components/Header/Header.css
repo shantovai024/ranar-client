@@ -1,6 +1,7 @@
-.mb-20 {
+.mb-50 {
     margin-bottom: 20px;
 }
+
 .menu-area a {
     margin-left: 25px;
     text-decoration: none;
@@ -9,5 +10,5 @@
 }
 
 .menu-area a:hover {
-color: #0097C4;
+    color: #0097C4;
 }

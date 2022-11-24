@@ -1,11 +1,11 @@
-.card{
+.card {
     transition: .3s;
     z-index: 11;
     border: 1px solid #ddd;
     padding: 10px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.02);
     border-color: #01A54E;
 }
@@ -25,7 +25,7 @@
     border: 1px solid transparent;
 }
 
-.update:hover{
+.update:hover {
     background: #05552bfb;
     color: #fff;
 }
@@ -42,7 +42,7 @@
 
 }
 
-.delivered:hover{
+.delivered:hover {
     background: rgb(149, 8, 8);
     color: #fff;
 }

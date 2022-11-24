@@ -2,19 +2,25 @@
     margin-top: 50px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .mb-60 {
     margin-bottom: 50px;
 }
 
-.contact-title{
+.contact-title {
     font-size: 60px;
     text-align: center;
 }
+
 .contact-img img {
     max-width: 100%;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     margin-bottom: 15px;
     padding: 15px;
@@ -34,4 +40,35 @@
 
 .contact-form input[type=submit]:hover {
     background: #086e48;
+}
+
+/* Responsive  */
+@media (max-width: 1366px) {
+
+    .contact-form textarea {
+        height: 145px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        width: 1200px;
+    }
+
+    .contact-form textarea {
+        height: 85px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 576px;
+        padding: 30px;
+    }
+
+
 }

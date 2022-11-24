@@ -22,7 +22,7 @@ const SocialLogin = () => {
     if (error) {
         errorMessage = <p className="text-danger">Error: {error?.message}</p>;
     }
-    
+
     return (
         <div className='row'>
             <div className="col-xl-6 offset-xl-3">

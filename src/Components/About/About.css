@@ -1,13 +1,26 @@
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
 }
+
 .about-title {
-font-size: 60px;
+    font-size: 60px;
 }
-.about-text p{
+
+.about-text p {
     font-size: 20px;
-    
+    margin-top: -10px;
 }
+
 .about-img img {
     max-width: 100%;
+}
+
+/* Responsive  */
+@media (max-width: 576px) {
+
+    .container {
+        width: 576px;
+        padding: 30px;
+    }
+
 }
