@@ -4,7 +4,7 @@ const UseProducts = () => {
     let [products, setProducts] = useState([])
 
     useEffect(() => {
-        let url = 'http://localhost:5000/allproducts'
+        let url = 'https://ranar-server-side.vercel.app/allproducts'
         fetch(url)
             .then((res) => res.json())
             .then((data) => setProducts(data))

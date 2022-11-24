@@ -22,7 +22,7 @@ const AddProducts = () => {
 
     let product = { name, email, supplierName, description, price, quantity, img }
 
-    const url = "http://localhost:5000/allproducts";
+    const url = "https://ranar-server-side.vercel.app/allproducts";
     fetch(url, {
       method: "POST",
       headers: {

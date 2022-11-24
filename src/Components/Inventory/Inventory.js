@@ -12,7 +12,7 @@ const Inventory = () => {
     const [singleProductQuantity, setSingleProductQuantity] = useState(quantity);
 
     useEffect(() => {
-        let url = `http://localhost:5000/allproducts/${id}`
+        let url = `https://ranar-server-side.vercel.app/allproducts/${id}`
         fetch(url)
             .then((res) => res.json())
             .then((data) => setProduct(data))
@@ -22,7 +22,7 @@ const Inventory = () => {
 
     const handleDeliveredBtn = () => {
         const updateQuantity = (parseFloat(singleProductQuantity) - 1).toString();
-        const url = `http://localhost:5000/allproducts/${id}`;
+        const url = `https://ranar-server-side.vercel.app/allproducts/${id}`;
         fetch(url, {
             method: "PUT",
             headers: {
@@ -50,7 +50,7 @@ const Inventory = () => {
         }
 
         const updateQuantity = (previousQuantity + quantity).toString();
-        const url = `http://localhost:5000/allproducts/${id}`;
+        const url = `https://ranar-server-side.vercel.app/allproducts/${id}`;
         fetch(url, {
             method: "PUT",
             headers: {

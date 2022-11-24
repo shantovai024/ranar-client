@@ -16,7 +16,7 @@ const AllProducts = () => {
     const handleDeleteProduct = (id) => {
         const proceed = window.confirm("Are you sure to delete this product?");
         if (proceed) {
-            const url = `http://localhost:5000/allproducts/${id}`;
+            const url = `https://ranar-server-side.vercel.app/allproducts/${id}`;
             fetch(url, {
                 method: "DELETE",
             })
