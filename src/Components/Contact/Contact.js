@@ -10,7 +10,7 @@ const Contact = () => {
         <div>
             <div className="row">
                 <div className="col-xl-12">
-                    <h2 className='contact-title mb-60'>Contact Us</h2>
+                    <h1 className='contact-title mb-60'>Contact Us</h1>
                 </div>
                 <div className="col-md-6 mb-50">
                     <div className="contact-img">

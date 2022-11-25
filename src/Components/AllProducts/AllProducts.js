@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
 import UseProducts from '../hooks/UseProducts';
-import Inventory from '../Inventory/Inventory';
 import Product from '../Product/Product';
 import './AllProducts.css'
 
@@ -32,7 +31,7 @@ const AllProducts = () => {
 
     return (
         <div className='mb-60'>
-            <h1 className='text-center mb-60'>All Product</h1>
+            <h1 className='text-center fz-60 mb-60'>All Product</h1>
             <div className='row'>
                 {
                     products.map(product => <Product

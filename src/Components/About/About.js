@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div className="row mb-60">
                 <div className="col-sm-12">
-                    <h2 className='text-center about-title mb-60'>About</h2>
+                    <h1 className='text-center fz-60 mb-60'>About</h1>
                 </div>
                 <div className="col-lg-6 mb-30">
                     <div className="about-img">

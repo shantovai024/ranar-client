@@ -60,7 +60,7 @@ let Login = () => {
     return (
         <div className='row'>
             <div className="col-xl-8 mx-auto login-form">
-                <h2 className='mb-60 text-center'>Login</h2>
+                <h2 className='mb-60 fz-60 text-center'>Login</h2>
                 <form onSubmit={handleLogin}>
                     <input type="email" placeholder='Email' name='email' id='email' />
                     <input type="password" placeholder='Password' name='password' id='password' />

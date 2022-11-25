@@ -53,7 +53,7 @@ const Register = () => {
     return (
         <div className='row'>
             <div className="col-xl-8 mx-auto login-form">
-                <h2 className='mb-60 text-center'>Register</h2>
+                <h2 className='mb-60 fz-60 text-center'>Register</h2>
                 <form onSubmit={handleRegister}>
                     <input type="text" name="name" id="name" placeholder="name" required />
                     <input type="text" name="email" id="email" placeholder="email" required />

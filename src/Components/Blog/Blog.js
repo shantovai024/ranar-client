@@ -4,7 +4,10 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div className='row '>
-            <div className="col-md-4 blog">
+           <div className="col-md-12 text-center">
+            <h1 className='fz-60 mb-60'>Blogs</h1>
+           </div>
+           <div className="col-md-4 blog">
                 <h2>Difference between Javascript and Node JS?</h2>
                 <p>Javascript is a programming language. It only runs on the web browser. Js basically used on client side for front end development.</p>
                 <p>On the other hand NodeJS is an interpreter or execution environment for js. NodeJS mostly used on Server side for back-end development. To parse and runs js NodeJS use the v8 engine.</p>

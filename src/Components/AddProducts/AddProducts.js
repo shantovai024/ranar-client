@@ -44,7 +44,7 @@ const AddProducts = () => {
   return (
     <div className='row'>
       <div className="col-xl-8 mx-auto">
-        <h1 className='text-center mb-4'>Add a Product</h1>
+        <h1 className='text-center fz-60 mb-60'>Add a Product</h1>
         <form className='add-product' onSubmit={handleAddProduct}>
           <input type="text" name='name' placeholder='Product Name' required />
           <input type="email" name='email' placeholder='Email' value={user?.email} required />
