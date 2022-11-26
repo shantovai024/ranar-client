@@ -1,6 +1,6 @@
 # Ranar
 
-Live Website Link 2 [Firebase](https://ranar-304e3.web.app/).
+Live Website Link 2 [Firebase](https://ranar-304e3.firebaseapp.com/).
 
 Live Website Link [Vercel](https://ranar-client.vercel.app/).
 
