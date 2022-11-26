@@ -45,7 +45,6 @@ const AllProducts = () => {
             <div className="row">
                 <div className="col-xl-12 text-center mt-4">
                     <button className='manage-btn' onClick={addAProduct}>Add a Product</button>
-
                 </div>
             </div>
         </div>

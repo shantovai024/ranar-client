@@ -20,7 +20,7 @@ const SocialLogin = () => {
 
     let errorMessage;
     if (error) {
-        errorMessage = <p className="text-danger">Error: {error?.message}</p>;
+        errorMessage = <p className="text-danger">{error?.message}</p>;
     }
 
     return (

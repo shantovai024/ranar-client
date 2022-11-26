@@ -69,7 +69,7 @@ const Inventory = () => {
     return (
         <>
             <div className='row'>
-                <div className='col-xl-6 offset-xl-3 product-img'>
+                <div className='col-xl-6 offset-xl-3 inventory'>
                     <div className="card mb-4">
                         <img src={img} alt="" />
                         <div className="product-info ps-4 pe-3 mb-4">

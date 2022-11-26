@@ -16,7 +16,7 @@ const ResetPassword = () => {
 
     if (error) {
         errorMessage = (
-            <p className="text-danger text-center">Error: {error?.message}</p>
+            <p className="text-danger text-center">{error?.message}</p>
         );
     }
 
