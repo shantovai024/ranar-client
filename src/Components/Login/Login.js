@@ -12,8 +12,8 @@ let Login = () => {
 
     let [signInWithEmailAndPassword,
         user,
-        error,
-        loading
+        loading,
+        error
     ] = useSignInWithEmailAndPassword(auth);
 
     let location = useLocation();
@@ -46,15 +46,17 @@ let Login = () => {
     let errorMessage;
     if (error) {
         errorMessage = <p className="text-danger">Error: {error?.message}</p>;
+        console.log(error);
     }
+
+    console.log(error);
+    console.log(loading);
 
     let handleLogin = async (event) => {
         event.preventDefault()
         let email = event.target.email.value;
         let password = event.target.password.value;
         await signInWithEmailAndPassword(email, password);
-
-        navigate(from, { replace: true });
     }
 
     return (
